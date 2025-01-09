@@ -75,14 +75,6 @@ class PageHeader extends Component {
         <ArtistSearchInputConnector />
 
         <div className={styles.right}>
-          <IconButton
-            className={styles.donate}
-            name={icons.HEART}
-            aria-label="Donate"
-            to="https://lidarr.audio/donate"
-            size={14}
-            title={translate('Donate')}
-          />
 
           <IconButton
             className={styles.translation}
