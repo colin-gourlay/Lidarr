@@ -75,15 +75,6 @@ class PageHeader extends Component {
         <ArtistSearchInputConnector />
 
         <div className={styles.right}>
-
-          <IconButton
-            className={styles.translation}
-            title={translate('SuggestTranslationChange')}
-            name={icons.TRANSLATE}
-            to="https://translate.servarr.com/projects/servarr/lidarr/"
-            size={24}
-          />
-
           <PageHeaderActionsMenu
             onKeyboardShortcutsPress={this.onOpenKeyboardShortcutsModal}
           />
